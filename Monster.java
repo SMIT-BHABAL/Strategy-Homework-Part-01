@@ -55,5 +55,6 @@ public abstract class Monster {
     @Override
     public String toString() {
         return "hp=" + xp + "/" + xp;
+
     }
 }
