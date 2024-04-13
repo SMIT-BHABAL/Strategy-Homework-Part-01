@@ -49,6 +49,7 @@ public abstract class Monster {
     @Override
     public int hashCode() {
         return Objects.hash(getHp(), getXp(), getMaxHP(), getItems());
+
     }
 
     @Override
